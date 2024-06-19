@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São João - Atrações Diárias</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar1" id="sidebar1">
+            <button id="close-btn" onclick="toggleMenu()">x</button>
+            <nav>
+                <ul>
+                    <li><a href="#atracoes">Atrações na Cidade</a></li>
+                    <li><a href="#atracoes">arrastao</a></li>
+                    <li><a href="#restaurantes">Opções de Restaurantes</a></li>
+                    <li><a href="#lazer">Lazer à Noite</a></li>
+                    <li><a href="#barzinhos">Barzinhos</a></li>
+                    <li><a href="#barzinhos">Barraca no circuito</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <header>
+                <button id="menu-toggle" onclick="toggleMenu()">☰</button>
+            </header>
+            <section class="day" id="dia1">
+                <h2>Quarta - 19 de Junho</h2>
+                <div id="slider1" class="slider">
+                    <!-- Cantores do dia 1 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider1')">Anterior</button>
+                <button class="next" onclick="showNext('slider1')">Próximo</button>
+            </section>
+            <section class="day" id="dia2">
+                <h2>Quinta - 20 de Junho</h2>
+                <div id="slider2" class="slider">
+                    <!-- Cantores do dia 2 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider2')">Anterior</button>
+                <button class="next" onclick="showNext('slider2')">Próximo</button>
+            </section>
+            <section class="day" id="dia3">
+                <h2>Sexta - 21 de Junho</h2>
+                <div id="slider3" class="slider">
+                    <!-- Cantores do dia 3 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider3')">Anterior</button>
+                <button class="next" onclick="showNext('slider3')">Próximo</button>
+            </section>
+            <section class="day" id="dia4">
+                <h2>Sábado - 22 de Junho</h2>
+                <div id="slider4" class="slider">
+                    <!-- Cantores do dia 4 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider4')">Anterior</button>
+                <button class="next" onclick="showNext('slider4')">Próximo</button>
+            </section>
+            <section class="day" id="dia5">
+                <h2>Domingo - 23 de Junho</h2>
+                <div id="slider5" class="slider">
+                    <!-- Cantores do dia 5 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider5')">Anterior</button>
+                <button class="next" onclick="showNext('slider5')">Próximo</button>
+            </section>
+            <section class="day" id="dia6">
+                <h2>Segunda - 24 de Junho</h2>
+                <div id="slider6" class="slider">
+                    <!-- Cantores do dia 6 serão carregados dinamicamente aqui -->
+                </div>
+                <button class="prev" onclick="showPrevious('slider6')">Anterior</button>
+                <button class="next" onclick="showNext('slider6')">Próximo</button>
+            </section>
+            <section id="atracoes">
+                <h2>Outras Atrações na Cidade</h2>
+                <p>Informações sobre outras atrações...</p>
+            </section>
+            <section id="restaurantes">
+                <h2>Opções de Restaurantes</h2>
+                <p>Informações sobre restaurantes...</p>
+            </section>
+            <section id="lazer">
+                <h2>Lazer à Noite</h2>
+                <p>Informações sobre lazer noturno...</p>
+            </section>
+            <section id="barzinhos">
+                <h2>Barzinhos</h2>
+                <p>Informações sobre barzinhos...</p>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
